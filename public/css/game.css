@@ -13,6 +13,9 @@ body{
 	font-family:monospace;
 	background-color: #000;
 	color:green;
+	background-image:url("/images/bg.jpg");
+    background-repeat: no-repeat;
+	
 }
 .text-center{
 	text-align:center;
