@@ -1,0 +1,53 @@
+<% include header %>
+<link rel="stylesheet" href="/css/contact-me.css">
+    <nav class="navbar navbar-inverse">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Manikanta Goud</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li><a href="index">Home</a></li>
+            <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              -->
+
+
+            <li><a href="/cacluatingnoofdays">Yourchoice</a></li>
+            <li class="active"><a href="/contact-me">Contact</a></li>
+
+            <!-- <li><a href="A01-contact.html">Contact </a></li> -->
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Contact me:</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="usr">Name:</label>
+                        <input type="text" class="form-control" pattern="[A-Za-z]{1,}" id="usr">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email address:</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone:</label>
+                        <input type="tel" class="form-control" pattern="^\d{10}" id="number">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">message:</label>
+                        <textarea class="form-control" rows="5" id="comment"></textarea>
+                    </div>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <a href="https://github.com/manikantagoud"><i class="fa fa-github" style="font-size:30px">github</i></a><br><br>
+            <a href="https://bitbucket.org/manikanta-goud/"><i class="fa fa-bitbucket" style="font-size:30px">bitbucket</i></a><br><br>
+            <a href="https://www.linkedin.com/in/manikanta-goud-b3518a160/"><i class="fa fa-linkedin" style="font-size:30px">linked
+                    in</i></a>
+        </div>
+    </div>
+<% include footer%>

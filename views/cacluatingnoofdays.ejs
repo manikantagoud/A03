@@ -1,0 +1,65 @@
+<% include header%>
+<link rel="stylesheet" href="/css/index.css">
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">Manikanta Goud</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a href="/index">Home</a></li>
+        <!-- <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+              -->
+
+
+        <li class="active"><a href="/cacluatingnoofdays">Yourchoice</a></li>
+        <li><a href="/contact-me">Contact</a></li>
+
+        <!-- <li><a href="A01-contact.html">Contact </a></li> -->
+      </ul>
+    </div>
+
+  </nav>
+
+
+  <div>
+    <h1>Calculating No:of Days</h1>
+  <form class="form-horizontal" id="frm">
+    <div class="form-group">
+      <label class="col-sm-2 control-label dt">Start Date</label>
+      <div class="col-sm-10">
+        <input type="date" id="demo" class="form-control" placeholder="Enter start date" value="" style="width: fit-content">
+
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label dt">End Date</label>
+      <div class="col-sm-10">
+        <input type="date" id="demo1" class="form-control" placeholder="Enter end date" value="" style="width: fit-content">
+        <!-- <input type="date" id="dateInput" /> -->
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="col-sm-2 control-label dt">Duration of the Project</label>
+      <div class="col-sm-10">
+        <input type="text" id="duration" class="form-control" placeholder="Poject Duration" value="" style="width: fit-content">
+        <!-- <input type="date" id="dateInput" /> -->
+      </div>
+    
+    
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button id="get" type="button" onclick="App.launch()" class="btn btn-primary"  style="margin-top: 1em; margin-left:0.5em"   >Get</button>
+      </div>
+    </div>
+  </div>
+    
+    
+  </form>
+
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/game.js"></script>
+<% include footer%>

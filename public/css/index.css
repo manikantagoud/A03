@@ -1,0 +1,34 @@
+section 
+{
+	
+	font-style:italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;       
+    
+        position: relative;
+      
+        top: 100px;
+         
+}
+#img{
+   margin-top: 80px;
+   /** margin-left: 5px;**/
+   float: left;
+    
+}
+
+.image{
+    position: absolute;
+    top: 20em;
+    right: 2em;
+}
+
+
+body{
+    background-image:url("/images/bg.jpg");
+    background-repeat: no-repeat;
+}
+
+.row{
+    padding-left: 1.5em;
+}
