@@ -39,7 +39,7 @@ app.get('/index', function (req, res) {
   res.render('index.ejs')
 })
 app.get('/game', function (req, res) {
-  res.render('calcluatingnoofdays.ejs')
+  res.render('cacluatingnoofdays.ejs')
 })
 app.get('/contact', function (req, res) {
   res.render('contact-me.ejs')
