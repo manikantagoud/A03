@@ -3,19 +3,17 @@
     "version": "0.0.1",
     "description": "resume app",
     "main": "app.js",
-    "scripts":{
-      "start":"node app.js"  
+    "scripts": {
+        "start": "node app.js"
     },
     "dependencies": {
-        "express": "latest",
-        "morgan": "latest",
         "body-parser": "latest",
         "ejs": "latest",
-        "express":"latest",
-        "morgan":"latest",
-        "nconf":"latest",
-        "nodemailer":"latest",
-        "nodemailer-mailgun-transport":"latest"
+        "express": "latest",
+        "morgan": "latest",
+        "nconf": "latest",
+        "nodemailer": "^4.6.8",
+        "nodemailer-mailgun-transport": "^1.4.0"
     },
     "author": "Manikanta goud Bandari",
     "homepage": "https://github.com/manikantagoud/",
